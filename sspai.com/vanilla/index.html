@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <link rel="stylesheet" href="/css/outfit-medium.css" />
+    <link rel="stylesheet" href="/css/iconfont.css" />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sspai</title>
   </head>
   <body>
     <header
-      class="bg-[rgba(0,0,0,.1)] backdrop-blur-[60px] transition-[background] duration-300 ease-[cubic-bezier(0.5,0,0,1)]"
+      id="header"
+      class="fixed w-full top-0 z-50 bg-[rgba(0,0,0,.1)] backdrop-blur-[60px] transition-[background] duration-300 ease-[cubic-bezier(0.5,0,0,1)]"
     >
       <div class="relative max-w-[1200px] m-auto px-[12px] flex h-full box-content">
         <!-- logo -->
@@ -21,23 +23,36 @@
         </div>
         <!-- menu -->
         <div class="flex-2">
-          <ul class="h-full flex items-center justify-center">
-            <li
-              class="inline-block text-black font-medium text-[15px] font-['Outfit-Medium'] p-[16px]"
-            >
-              <a href="#">PRIME</a>
+          <ul class="h-full flex items-center justify-center leading-[normal]">
+            <li class="inline-block text-black font-medium text-[15px] p-[16px]">
+              <a class="flex items-center gap-[4px]" href="#">
+                <i class="iconfont icon-PrimeS03 text-[24px] p-0"></i>
+                <span class="font-[Outfit-Medium] font-medium box-content">PRIME</span>
+              </a>
             </li>
             <li class="inline-block text-black font-medium text-[15px] p-[16px]">
-              <a href="#">MATRIX</a>
+              <a class="flex items-center gap-[4px]" href="#">
+                <i class="iconfont icon-Matrix text-[24px] p-0"></i>
+                <span>Matrix</span>
+              </a>
             </li>
             <li class="inline-block text-black font-medium text-[15px] p-[16px]">
-              <a href="#">栏目</a>
+              <a class="flex items-center gap-[4px]" href="#">
+                <i class="iconfont icon-journal text-[24px] p-0"></i>
+                <span>栏目</span>
+              </a>
             </li>
             <li class="inline-block text-black font-medium text-[15px] p-[16px]">
-              <a href="#">Pi Store</a>
+              <a class="flex items-center gap-[4px]" href="#">
+                <i class="iconfont icon-shop text-[24px] p-0"></i>
+                <span>Pi Store</span>
+              </a>
             </li>
             <li class="inline-block text-black font-medium text-[15px] p-[16px]">
-              <a href="#">更多</a>
+              <a class="flex items-center gap-[4px]" href="#">
+                <i class="iconfont icon-menuMore text-[24px] p-0"></i>
+                <span>更多</span>
+              </a>
             </li>
           </ul>
         </div>
@@ -45,59 +60,89 @@
         <div class="flex-1 flex items-center justify-end">
           <ul class="flex items-center gap-[8px]">
             <li class="w-[32px] h-[32px] flex items-center justify-center">
-              <svg
-                class="w-[20px] h-[20px]"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
-                />
-              </svg>
+              <i class="iconfont icon-search text-[20px]"></i>
             </li>
             <li class="w-[32px] h-[32px] flex items-center justify-center">
-              <svg
-                class="w-[20px] h-[20px]"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="m16.862 4.487 1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L10.582 16.07a4.5 4.5 0 0 1-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 0 1 1.13-1.897l8.932-8.931Zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0 1 15.75 21H5.25A2.25 2.25 0 0 1 3 18.75V8.25A2.25 2.25 0 0 1 5.25 6H10"
-                />
-              </svg>
+              <i class="iconfont icon-write text-[20px]"></i>
             </li>
             <li class="w-[32px] h-[32px] flex items-center justify-center">
-              <svg
-                class="w-[20px] h-[20px]"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                class="size-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                />
-              </svg>
+              <i class="iconfont icon-account text-[20px]"></i>
             </li>
           </ul>
         </div>
       </div>
+
+      <!-- 菜单下拉弹窗 -->
+      <div>
+        <div
+          id="subMenu"
+          class="hidden fixed z-10 w-full h-[350px] bg-white border-t border-solid border-[#f0f0f3] transition-opacity duration-300 ease-[cubic-bezier(0.5,0,0,1)] opacity-0"
+        >
+          <div class="flex">header nav</div>
+        </div>
+        <!-- mask -->
+        <div
+          id="mask"
+          class="hidden fixed top-[56px] bottom-0 left-0 right-0 bg-[hsla(216,2%,50%,.8)] backdrop-blur-[5px] transition-opacity duration-300 ease-[cubic-bezier(0.5,0,0,1)] opacity-0"
+        ></div>
+      </div>
     </header>
+    <main>
+      <img
+        class="w-full"
+        src="https://cdnfile.sspai.com/2/8/2024/article/b954589e-bfdb-8194-a19c-4977cea82494.jpeg?imageMogr2/auto-orient/thumbnail/!2880x730r/gravity/center/crop/2880x730/format/webp/ignore-error/1"
+        alt=""
+      />
+    </main>
+
+    <script>
+      // 获取头元素
+      const header = document.getElementById("header");
+      const subMenu = document.getElementById("subMenu");
+      const mask = document.getElementById("mask");
+
+      // 添加鼠标移入事件监听器
+      header.addEventListener("mouseover", function () {
+        // 头颜色改成白色
+        header.classList.add("bg-white");
+
+        // 删除头的高斯模糊
+        header.classList.remove("backdrop-blur-[60px]");
+
+        subMenu.classList.remove("hidden");
+        subMenu.classList.remove("opacity-0");
+        subMenu.classList.add("opacity-100");
+
+        mask.classList.remove("hidden");
+        mask.classList.remove("opacity-0");
+        mask.classList.add("opacity-100");
+      });
+
+      // 添加鼠标移出事件监听器
+      header.addEventListener("mouseout", function () {
+        
+        // 删除头颜色
+        header.classList.remove("bg-white");
+
+        // 加回头的高斯模糊
+        header.classList.add("backdrop-blur-[60px]");
+
+        subMenu.classList.remove("opacity-100");
+        subMenu.classList.add("opacity-0");
+
+        mask.classList.remove("opacity-100");
+        mask.classList.add("opacity-0");
+
+        setTimeout(() => {
+          if (!subMenu.classList.contains("opacity-100")) {
+            subMenu.classList.add("hidden");
+          }
+
+          if (!mask.classList.contains("opacity-100")) {
+            mask.classList.add("hidden");
+          }
+        }, 150);
+      });
+    </script>
   </body>
 </html>
