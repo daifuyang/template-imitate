@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/css/outfit-medium.css" />
     <link rel="stylesheet" href="/css/iconfont.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/index.css" />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>sspai</title>
@@ -86,11 +87,92 @@
                 </div>
               </div>
             </li>
-            <li class="menu-item inline-block font-medium text-[15px] p-[16px]">
+            <li class="menu-item inline-block font-medium text-[15px] p-[16px] group">
               <a class="flex items-center gap-[4px]" href="#">
                 <i class="iconfont icon-Matrix text-[24px] p-0"></i>
                 <span>Matrix</span>
               </a>
+              <!-- 菜单下拉弹窗 -->
+              <div>
+                <div
+                  class="sub-menu-item fixed left-0 top-[56px] z-10 w-full h-[350px] bg-white border-t border-solid border-[#f0f0f3] invisible opacity-0 -translate-y-[20px] transition duration-300 ease-[cubic-bezier(0.5,0,0,1)] group-hover:visible group-hover:opacity-100 group-hover:translate-y-0"
+                >
+                  <div class="flex flex-col w-[852px] justify-between pt-10 m-auto">
+                    <div class="flex justify-between">
+                      <div class="w-[200px] flex flex-col">
+                        <div class="text-[22px] font-medium text-black mb-6">Matrix 社区</div>
+                        <ul class="flex flex-col">
+                          <li class="flex items-center py-3">
+                            <i class="iconfont icon-Matrix text-[32px] text-black mr-1"></i>
+                            <span class="text-[17px] font-medium text-black cursor-pointer"
+                              >Matrix 广场</span
+                            >
+                          </li>
+                          <li class="flex items-center py-3">
+                            <i class="iconfont icon-Yipai text-[32px] text-black mr-1"></i>
+                            <span class="text-[17px] font-medium text-black cursor-pointer"
+                              >一派话题</span
+                            >
+                          </li>
+                          <li class="flex items-center py-3">
+                            <i class="iconfont icon-topic1 text-[32px] text-black mr-1"></i>
+                            <span class="text-[17px] font-medium text-black cursor-pointer"
+                              >全部专题</span
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="w-[588px] flex flex-col">
+                        <div class="text-[22px] font-medium text-black mb-6">最新动态</div>
+                        <ul class="grid grid-cols-3 gap-x-6">
+                          <li>
+                            <a class="flex flex-col w-[180px]" href="">
+                              <div
+                                class="w-full h-[115px] mb-2 overflow-hidden rounded-lg border border-solid border-[rgba(0,0,0,.05)]"
+                              >
+                                <img class="w-full h-full" src="/images/menu/matrix1.webp" alt="" />
+                              </div>
+
+                              <div class="text-[13px] text-[#6f7174] font-medium">文章</div>
+                              <div class="text-[13px] mt-1 text-black font-normal line-clamp-2">
+                                黑客与画家：制作适合科研论文的莫兰迪色盘
+                              </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a class="flex flex-col w-[180px]" href="">
+                              <div
+                                class="w-full h-[115px] mb-2 overflow-hidden rounded-lg border border-solid border-[rgba(0,0,0,.05)]"
+                              >
+                                <img class="w-full h-full" src="/images/menu/matrix2.webp" alt="" />
+                              </div>
+
+                              <div class="text-[13px] text-[#6f7174] font-medium">一派</div>
+                              <div class="text-[13px] mt-1 text-black font-normal line-clamp-2">
+                                给学弟学妹的建议：大学专业和电脑购买选择？
+                              </div>
+                            </a>
+                          </li>
+                          <li>
+                            <a class="flex flex-col w-[180px]" href="">
+                              <div
+                                class="w-full h-[115px] mb-2 overflow-hidden rounded-lg border border-solid border-[rgba(0,0,0,.05)]"
+                              >
+                                <img class="w-full h-full" src="/images/menu/matrix3.webp" alt="" />
+                              </div>
+
+                              <div class="text-[13px] text-[#6f7174] font-medium">文章</div>
+                              <div class="text-[13px] mt-1 text-black font-normal line-clamp-2">
+                                iPhone 15 发布会上没有告诉你的那些事
+                              </div>
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </li>
             <li class="menu-item inline-block font-medium text-[15px] p-[16px]">
               <a class="flex items-center gap-[4px]" href="#">
@@ -136,7 +218,7 @@
       <div>
         <div class="banner">
           <!-- Swiper -->
-          <div class="swiper mySwiper group">
+          <div class="swiper banner-swiper group">
             <div class="swiper-wrapper">
               <div data-theme="light" class="swiper-slide">
                 <img class="w-full" src="/images/banner/1.webp" alt="" />
@@ -159,8 +241,59 @@
             <div class="swiper-pagination"></div>
           </div>
         </div>
-        <div style="height: 500px"></div>
-        <div>1111111111 22222222</div>
+
+        <div class="box">
+          <div class="relative z-50 w-full max-w-[1120px] mx-auto -mt-10 mb-[30px]">
+            <div class="swiper box-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="box-image-wrap">
+                      <img
+                        class="w-full transition duration-500 hover:scale-110"
+                        src="/images/box/1.webp"
+                        alt=""
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="box-image-wrap">
+                      <img
+                        class="w-full transition duration-500 hover:scale-110"
+                        src="/images/box/2.webp"
+                        alt=""
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="box-image-wrap">
+                      <img
+                        class="w-full transition duration-500 hover:scale-110"
+                        src="/images/box/3.webp"
+                        alt=""
+                      />
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="box-image-wrap">
+                      <img
+                        class="w-full transition duration-500 hover:scale-110"
+                        src="/images/box/4.webp"
+                        alt=""
+                      />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
@@ -170,7 +303,7 @@
       const root = document.documentElement;
       const header = document.getElementById("header");
 
-      var swiper = new Swiper(".mySwiper", {
+      const swiper = new Swiper(".banner-swiper", {
         loop: true,
         autoplay: {
           delay: 10000,
@@ -193,6 +326,15 @@
             header.style.setProperty("--menu-color", theme === "light" ? "#fff" : "#000");
             header.style.setProperty("--extra-color", theme === "light" ? "#fff" : "#000");
           }
+        }
+      });
+
+      const boxSwiper = new Swiper(".box-swiper", {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        grid: {
+          fill: "row",
+          rows: 1
         }
       });
 
