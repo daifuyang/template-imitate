@@ -1,18 +1,18 @@
 @font-face {
-  font-family: 'iconfont';
-  src:  url('/fonts/icon/iconfont.eot?c9q8v');
-  src:  url('/fonts/icon/iconfont.eot?c9q8v#iefix') format('embedded-opentype'),
-    url('/fonts/icon/iconfont.ttf?c9q8v') format('truetype'),
-    url('/fonts/icon/iconfont.woff?c9q8v') format('woff'),
-    url('/fonts/icon/iconfont.svg?c9q8v#iconfont') format('svg');
+  font-family: "iconfont";
+  src: url("/fonts/icon//iconfont.eot");
+  src: url("/fonts/icon//iconfont.eot") format("embedded-opentype"),
+    url("/fonts/icon//iconfont.ttf") format("truetype"),
+    url("/fonts/icon//iconfont.woff") format("woff"), url("/fonts/icon//iconfont.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'iconfont' !important;
+  font-family: "iconfont" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -25,330 +25,417 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Apple:before {
+.icon-app-store:before {
   content: "\e900";
 }
-.icon-F5:before {
+.icon-add:before {
   content: "\e901";
 }
-.icon-arrowDown:before {
+.icon-alipay:before {
   content: "\e902";
 }
-.icon-broadcast:before {
+.icon-Android:before {
   content: "\e903";
 }
-.icon-chatBubble:before {
+.icon-Apple:before {
   content: "\e904";
 }
-.icon-featured:before {
+.icon-AppStore:before {
   content: "\e905";
 }
-.icon-close:before {
+.icon-archive:before {
   content: "\e906";
 }
-.icon-community:before {
+.icon-arrow-down:before {
   content: "\e907";
 }
-.icon-computer:before {
+.icon-arrow-left:before {
   content: "\e908";
 }
-.icon-delete:before {
+.icon-arrow-right:before {
   content: "\e909";
 }
-.icon-warning:before {
+.icon-arrow-up:before {
   content: "\e90a";
 }
-.icon-favorite:before {
+.icon-bookmark:before {
   content: "\e90b";
 }
-.icon-fish:before {
+.icon-card:before {
   content: "\e90c";
 }
-.icon-keyboard:before {
+.icon-catalog:before {
   content: "\e90d";
 }
-.icon-life:before {
+.icon-chat_quote:before {
   content: "\e90e";
 }
-.icon-link:before {
+.icon-chat:before {
   content: "\e90f";
 }
-.icon-minus:before {
+.icon-clear:before {
   content: "\e910";
 }
-.icon-more:before {
+.icon-clock_fill:before {
   content: "\e911";
 }
-.icon-office:before {
+.icon-clock:before {
   content: "\e912";
 }
-.icon-picture:before {
+.icon-close-round:before {
   content: "\e913";
 }
-.icon-pin:before {
+.icon-close:before {
   content: "\e914";
 }
-.icon-publish:before {
+.icon-coin_fill:before {
   content: "\e915";
 }
-.icon-publish2:before {
+.icon-coin:before {
   content: "\e916";
 }
-.icon-refresh:before {
+.icon-collect_solid:before {
   content: "\e917";
 }
-.icon-replyEmoji:before {
+.icon-collect:before {
   content: "\e918";
 }
-.icon-report:before {
+.icon-collpase:before {
   content: "\e919";
 }
-.icon-retrieve:before {
+.icon-collpase1:before {
   content: "\e91a";
 }
-.icon-share:before {
+.icon-column:before {
   content: "\e91b";
 }
-.icon-subscribe:before {
+.icon-comment_pic:before {
   content: "\e91c";
 }
-.icon-success:before {
+.icon-comment:before {
   content: "\e91d";
 }
-.icon-topic:before {
+.icon-community:before {
   content: "\e91e";
 }
-.icon-video:before {
+.icon-community1:before {
   content: "\e91f";
 }
-.icon-zoom:before {
+.icon-compact:before {
   content: "\e920";
 }
-.icon-cancel:before {
+.icon-content:before {
   content: "\e921";
 }
-.icon-confirm:before {
+.icon-delete:before {
   content: "\e922";
 }
-.icon-loading:before {
+.icon-dialog:before {
   content: "\e923";
 }
-.icon-chatBubble--fill:before {
+.icon-download:before {
   content: "\e924";
 }
-.icon-quesion:before {
+.icon-edit-line:before {
   content: "\e925";
 }
-.icon-favorited:before {
+.icon-email:before {
   content: "\e926";
 }
 .icon-error:before {
   content: "\e927";
 }
-.icon-info:before {
+.icon-feature-fill:before {
   content: "\e928";
 }
-.icon-prime:before {
+.icon-feature:before {
   content: "\e929";
 }
-.icon-favorite_reminder:before {
+.icon-file-download:before {
   content: "\e92a";
 }
-.icon-favorite_cancel:before {
+.icon-flag:before {
   content: "\e92b";
 }
-.icon-clock:before {
+.icon-garbage:before {
   content: "\e92c";
 }
-.icon-emoji:before {
+.icon-gift:before {
   content: "\e92d";
 }
-.icon-featured--stroke:before {
+.icon-Github:before {
   content: "\e92e";
 }
-.icon-magicWand:before {
+.icon-goal:before {
   content: "\e92f";
 }
-.icon-sort:before {
+.icon-group:before {
   content: "\e930";
 }
-.icon-sort--default:before {
+.icon-histogram:before {
   content: "\e931";
 }
-.icon-eye:before {
+.icon-hook:before {
   content: "\e932";
 }
-.icon-lightning:before {
+.icon-hot-fill:before {
   content: "\e933";
 }
-.icon-post:before {
+.icon-hot:before {
   content: "\e934";
 }
-.icon-trophy:before {
+.icon-info:before {
   content: "\e935";
 }
-.icon-favorited--line:before {
+.icon-Instapaper:before {
   content: "\e936";
 }
-.icon-topic--fill:before {
+.icon-iOS:before {
   content: "\e937";
 }
-.icon-download:before {
+.icon-item:before {
   content: "\e938";
 }
-.icon-info--line:before {
+.icon-jump:before {
   content: "\e939";
 }
-.icon-star--fill:before {
+.icon-layout-all:before {
   content: "\e93a";
 }
-.icon-edit--line:before {
+.icon-layout-card:before {
   content: "\e93b";
 }
-.icon-success--line:before {
+.icon-layout-list:before {
   content: "\e93c";
 }
-.icon-warning--line:before {
+.icon-layout:before {
   content: "\e93d";
 }
-.icon-write:before {
+.icon-lightning:before {
   content: "\e93e";
 }
-.icon-coin:before {
+.icon-like_solid:before {
   content: "\e93f";
 }
-.icon-coupon:before {
+.icon-like:before {
   content: "\e940";
 }
-.icon-gift2:before {
+.icon-link:before {
   content: "\e941";
 }
-.icon-journal:before {
+.icon-Linux:before {
   content: "\e942";
 }
-.icon-money:before {
+.icon-list:before {
   content: "\e943";
 }
-.icon-pai_outline:before {
+.icon-lock:before {
   content: "\e944";
 }
-.icon-PrimeS03:before {
+.icon-logo-simple:before {
   content: "\e945";
 }
-.icon-search:before {
+.icon-macOS:before {
   content: "\e946";
 }
-.icon-like:before {
+.icon-mall:before {
   content: "\e947";
 }
-.icon-arrowRight:before {
+.icon-matrix:before {
   content: "\e948";
 }
-.icon-alipay:before {
+.icon-menu:before {
   content: "\e949";
 }
-.icon-wechatpay:before {
+.icon-message_fill:before {
   content: "\e94a";
 }
-.icon-home:before {
+.icon-minus:before {
   content: "\e94b";
 }
-.icon-rights:before {
+.icon-more:before {
   content: "\e94c";
 }
-.icon-podcast:before {
+.icon-new:before {
   content: "\e94d";
 }
-.icon-arrowTopRight:before {
+.icon-notice:before {
   content: "\e94e";
 }
-.icon-PrimeS01:before {
+.icon-otter:before {
   content: "\e94f";
 }
-.icon-play--fill:before {
+.icon-person:before {
   content: "\e950";
 }
-.icon-play--line:before {
+.icon-phone:before {
   content: "\e951";
 }
-.icon-Matrix:before {
+.icon-pic:before {
   content: "\e952";
 }
-.icon-Yipai:before {
+.icon-play:before {
   content: "\e953";
 }
-.icon-account:before {
+.icon-plus:before {
   content: "\e954";
 }
-.icon-arrowBack:before {
+.icon-pocket:before {
   content: "\e955";
 }
-.icon-arrowExpand:before {
+.icon-podcast:before {
   content: "\e956";
 }
-.icon-menu:before {
+.icon-post:before {
   content: "\e957";
 }
-.icon-menuMore:before {
+.icon-power:before {
   content: "\e958";
 }
-.icon-shop:before {
+.icon-question:before {
   content: "\e959";
 }
-.icon-softwareStore:before {
+.icon-random:before {
   content: "\e95a";
 }
-.icon-softwareStoreTaobao:before {
+.icon-read:before {
   content: "\e95b";
 }
-.icon-topic1:before {
+.icon-rss-simple:before {
   content: "\e95c";
 }
-.icon-taobao:before {
+.icon-search:before {
   content: "\e95d";
 }
-.icon-delivery:before {
+.icon-selected:before {
   content: "\e95e";
 }
-.icon-plus:before {
+.icon-series:before {
   content: "\e95f";
 }
-.icon-series:before {
+.icon-setting:before {
   content: "\e960";
 }
-.icon-wangge:before {
+.icon-settings:before {
   content: "\e961";
 }
-.icon-address:before {
+.icon-share:before {
   content: "\e962";
 }
-.icon-weibo:before {
+.icon-sort:before {
   content: "\e963";
 }
-.icon-weixin:before {
+.icon-speak:before {
   content: "\e964";
 }
-.icon-xiaohongshu:before {
+.icon-special:before {
   content: "\e965";
 }
-.icon-list:before {
+.icon-star_score:before {
   content: "\e966";
 }
-.icon-badge:before {
+.icon-star:before {
   content: "\e967";
 }
-.icon-lightning--fill:before {
+.icon-success:before {
   content: "\e968";
 }
-.icon-quote:before {
+.icon-support_solid:before {
   content: "\e969";
 }
-.icon-otter:before {
+.icon-support:before {
   content: "\e96a";
 }
-.icon-otter--fill:before {
+.icon-tags:before {
   content: "\e96b";
 }
-.icon-service:before {
+.icon-tao:before {
   content: "\e96c";
+}
+.icon-taobao:before {
+  content: "\e96d";
+}
+.icon-top:before {
+  content: "\e96e";
+}
+.icon-topic:before {
+  content: "\e96f";
+}
+.icon-topic1:before {
+  content: "\e970";
+}
+.icon-topics:before {
+  content: "\e971";
+}
+.icon-topology:before {
+  content: "\e972";
+}
+.icon-tron:before {
+  content: "\e973";
+}
+.icon-twitter-simple:before {
+  content: "\e974";
+}
+.icon-unsupport_solid:before {
+  content: "\e975";
+}
+.icon-unsupport:before {
+  content: "\e976";
+}
+.icon-upload:before {
+  content: "\e977";
+}
+.icon-view:before {
+  content: "\e978";
+}
+.icon-vote:before {
+  content: "\e979";
+}
+.icon-vs:before {
+  content: "\e97a";
+}
+.icon-wallet:before {
+  content: "\e97b";
+}
+.icon-web:before {
+  content: "\e97c";
+}
+.icon-wechat-simple:before {
+  content: "\e97d";
+}
+.icon-wechatpay:before {
+  content: "\e97e";
+}
+.icon-weibo-simple:before {
+  content: "\e97f";
+}
+.icon-Windows:before {
+  content: "\e980";
+}
+.icon-write:before {
+  content: "\e981";
+}
+.icon-youzan:before {
+  content: "\e982";
+}
+.icon-youzan1:before {
+  content: "\e983";
+}
+.icon-menu--fold:before {
+  content: "\e984";
+}
+.icon-community2:before {
+  content: "\e985";
+}
+.icon-noticeRead:before {
+  content: "\e986";
+}
+.icon-menu--unfold:before {
+  content: "\e987";
+}
+.icon-add--stroke:before {
+  content: "\e988";
+}
+.icon-success--stroke:before {
+  content: "\e989";
 }
