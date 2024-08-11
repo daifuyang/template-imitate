@@ -61,3 +61,7 @@ body {
 #header .menu-item {
   color: var(--hover-menu-color, var(--menu-color));
 }
+
+#content .swiper-tabs .tab-item {
+  line-height: normal;
+}
